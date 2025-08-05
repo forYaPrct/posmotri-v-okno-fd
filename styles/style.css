@@ -156,6 +156,8 @@ ol {
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: bold;
+  line-height: 1em;
+  padding-bottom: 6px;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
