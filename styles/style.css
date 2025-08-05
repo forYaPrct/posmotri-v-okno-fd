@@ -17,6 +17,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -51,7 +54,6 @@ ol {
   background-color: #D9D9D9;
 }
 
-/* CSS Проетной работы */
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -60,12 +62,6 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
@@ -94,7 +90,6 @@ ol {
 .content__details {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 .result__video-container {
@@ -129,7 +124,7 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  overflow-x: hidden;
+  width: 196px;
 }
 
 .search-form__fieldset-title {
@@ -244,6 +239,7 @@ ol {
 
 .button {
   border: 1px solid #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #fff;
